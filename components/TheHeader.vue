@@ -15,7 +15,7 @@
         <li v-for="item in navLinks" :key="item.path">
           <NuxtLink
             :to="item.path"
-            class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker font-bold text-lg md:text-2xl"
+            class="block md:inline-block px-4 py-3 no-underline text-gray-500 hover:text-gray-700 text-lg md:text-2xl"
             >{{ item.name }}</NuxtLink
           >
         </li>
@@ -38,7 +38,10 @@ export default {
 </script>
 
 <style>
-.nuxt-link-exact-active {
-  @apply text-indigo-600;
+
+a.nuxt-link-exact-active {
+  font-weight: bold;
+  color:black;
 }
+
 </style>

@@ -1,18 +1,14 @@
 <template>
-  <div class="max-w-3xl px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0">
-    <div class="pt-6 pb-8 space-y-2 md:space-y-5">
+  <div class="px-4 mx-auto sm:px-6 xl:max-w-6xl xl:px-0">
+    <!-- <div class="pt-6 pb-8 space-y-2 md:space-y-5">
       <h1
-        class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14"
-      >
-        Projects
+        class="text-3xl leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
+        projects
       </h1>
-      <p class="text-lg leading-7 text-gray-500 dark:text-gray-400">
-        Some of the projects I've build or been a part of.
-      </p>
-    </div>
+    </div> -->
     <main class="relative mb-auto">
       <div class="">
-        <div class="container py-12">
+        <div class="container mx-auto py-12">
           <div class="flex flex-wrap -m-4">
             <project-card
               v-for="item in projectsData"
@@ -20,10 +16,8 @@
               :title="item.title"
               :description="item.description"
               :href="item.href"
-              :github="item.github"
-              :tech1="item.tech1"
-              :tech2="item.tech2"
-              :tech3="item.tech3"
+              :imgref="item.imgSrc"
+              :techs="item.techs"
             ></project-card>
           </div>
         </div>
@@ -34,21 +28,23 @@
 
 <script>
 import projectsData from "../data/projects";
+import siteMetaInfo from "../data/sitemetainfo";
 export default {
   data() {
     return {
       projectsData: projectsData,
+      siteMetaInfo: siteMetaInfo,
     };
   },
   head: {
-    title: "Md Solaiman | Projects",
+    title: [siteMetaInfo.author]+" | Projects",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "Some of Projects developed by Solaiman",
+        content: siteMetaInfo.description,
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],

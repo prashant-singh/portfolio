@@ -16,7 +16,7 @@
           <Css class="h-10 w-10 rounded-sm drop-shadow-sm"></Css>
         </li> -->
         <li class="flex items-center">
-          <Bootstrap class="h-10 w-10"></Bootstrap>
+          <Unity class="h-50 w-50"></Unity>
         </li>
         <li class="flex items-center">
           <TailwindCss class="h-10 w-10"></TailwindCss>
@@ -51,6 +51,7 @@
 </template>
 
 <script>
+import Unity from "../assets/devicon/unity.svg?inline";
 import Javascript from "../assets/devicon/javascript.svg?inline";
 import Html from "../assets/devicon/html.svg?inline";
 import Css from "../assets/devicon/css.svg?inline";
@@ -62,6 +63,7 @@ import Laravel from "../assets/devicon/laravel.svg?inline";
 import Node from "../assets/devicon/node.svg?inline";
 export default {
   components: {
+    Unity,
     Javascript,
     Html,
     Css,
