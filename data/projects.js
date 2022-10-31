@@ -24,7 +24,7 @@ const projectsData = [
     title: "BBBlackjack",
     description: `Blackjack game where you can create clubs with your friends and create tables with your chosen game settings.`,
     imgSrc: "/bbblackjack_thumb.png",
-    href: "https://play.google.com/store/apps/details?id=com.lidl.aquamini&hl=en_IN",
+    href: "",
     techs:["Unity3D","C#","IOS"]
   },
   {
@@ -38,7 +38,7 @@ const projectsData = [
     title: "T.H.I.S.",
     description: `T.H.I.S is a little minimalist game where your goal is to, well, help the ball reach the goal.`,
     imgSrc: "/this_thumb.jpg",
-    href: "https://thisisprashant.com/projects/9-this",
+    href: "https://madperception.github.io/",
     techs:["Unity3D","C#","Android","WindowsPhone"]
   }
 ];

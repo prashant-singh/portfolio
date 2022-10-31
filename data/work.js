@@ -1,4 +1,4 @@
-const timelineData = [
+const workData = [
 	{
 	  companyName: "Byju's",
 	  position:"Senior Software Engineer",
@@ -19,8 +19,8 @@ const timelineData = [
 		details: `Started my career as a junior and made my way to the Technical Head of the department. An amazing experience.`,
 		startDate: "Jan-2015",
 		endDate: "March-2020"
-	},
+	}
   ];
   
-  export default timelineData;
+  export default workData;
   

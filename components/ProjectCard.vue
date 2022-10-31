@@ -1,6 +1,6 @@
 <template>
   <div class="p-4 mx-auto md:w-1/2 lg:w-1/3 md" style="max-width: 544px">
-    <a target="_blank" :href="projectGithub">
+    <a :href="projectHref">
       <div
         class="h-full overflow-hidden border-2 border-gray-200 rounded-md border-opacity-40 dark:border-gray-700 shadow-xl">
         <div class="p-0">
