@@ -1,11 +1,5 @@
 <template>
   <div class="px-4 mx-auto sm:px-6 xl:max-w-6xl xl:px-0">
-    <!-- <div class="pt-6 pb-8 space-y-2 md:space-y-5">
-      <h1
-        class="text-3xl leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
-        projects
-      </h1>
-    </div> -->
     <main class="relative mb-auto">
       <div class="">
         <div class="container mx-auto py-12">
