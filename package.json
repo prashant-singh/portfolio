@@ -4,12 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "start": "nuxt start",
     "generate": "nuxt generate",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "deploy": "sh deploy.sh"
+    "start": "nuxt start",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
@@ -32,6 +29,7 @@
     "autoprefixer": "^10.4.4",
     "nuxt-vite": "^0.3.5",
     "postcss": "^8.4.12",
+    "push-dir": "^0.4.1",
     "tailwindcss": "^3.0.23"
   }
 }
