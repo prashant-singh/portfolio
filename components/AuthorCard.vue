@@ -12,7 +12,18 @@
         </div>
         <a :href="`mailto:${siteMetadata.email}`" class="text-center text-gray-700 md:hidden dark:text-blue-100">
           {{ siteMetadata.email }}
-        </a>        
+        </a>
+      </div>
+      <div>
+          <a href="/assets/pdf/Prashant-Singh.pdf" download="">
+            <button
+              class="bg-yellow-300 hover:bg-green-300 text-gray-800 font-bold py-2 px-8 rounded inline-flex items-center">
+              <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+              </svg>
+              <span>Resume</span>
+            </button>
+          </a>
       </div>
     </div>
 
