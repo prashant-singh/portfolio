@@ -5,7 +5,7 @@
         class="shadow-xl md:h-60 md:w-60 h-40 w-40 rounded-full" />
       <div class="mb-2 mx-7 mt-4">
         <h1 class="text-center md:text-3xl text-2xl text-gray-800 font-bold dark:text-blue-100">
-          {{ siteMetadata.author }} YES
+          {{ siteMetadata.author }}
         </h1>
         <div class="mt-2 md:text-left text-center md:text-lg text-gray-700 dark:text-blue-100">
           {{ siteMetadata.position }}
