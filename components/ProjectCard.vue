@@ -4,7 +4,7 @@
       <div
         class="h-full overflow-hidden border-2 border-gray-200 rounded-md border-opacity-40 dark:border-gray-700 shadow-xl">
         <div class="p-0">
-          <img :src="projectImg" loading="lazy" alt="me" class="h-80 w-full object-cover object-center"/>
+          <img :src="require(`~/assets/img/${projectImg}`)" loading="lazy" alt="me" class="h-80 w-full object-cover object-center"/>
           <div class="px-5 pb-4">
             <h2 class="text-2xl font-bold leading-8 tracking-tight mt-3 mb-3">
               {{ projectTitle }}
