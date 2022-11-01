@@ -5,9 +5,8 @@ const siteMetaInfo = {
   position: "Game Developer",
   location: "Ahmedabad, India",
   headerTitle: "Prashant Singh",
-  slogan: "Let's start coding",
   description:
-    "A tech enthusiast & self taught learner. Love to talk the way of tech.",
+    "Love to code.",
   language: "en-us",
   theme: "system", // system, dark or light
   siteUrl: "https://thisisprashant.com",
